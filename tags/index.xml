@@ -5,6 +5,25 @@
     <link>/tags/</link>
     <description>Recent content in Tags on </description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr-fr</language><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>fr-fr</language>
+    <lastBuildDate>Wed, 08 Dec 2021 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>étiquette1</title>
+      <link>/tags/%C3%A9tiquette1/</link>
+      <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/%C3%A9tiquette1/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>étiquette2</title>
+      <link>/tags/%C3%A9tiquette2/</link>
+      <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/%C3%A9tiquette2/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
