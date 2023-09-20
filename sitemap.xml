@@ -3,8 +3,43 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/apropos/</loc>
+    <lastmod>2023-09-20T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>/about/</loc>
     <lastmod>2023-01-21T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/credits/</loc>
+    <lastmod>2023-09-20T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2023-09-20T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2023-09-20T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/pages/</loc>
+    <lastmod>2023-09-20T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -17,15 +52,15 @@
   </url>
   
   <url>
-    <loc>/</loc>
-    <lastmod>2023-01-21T00:00:00+00:00</lastmod>
+    <loc>/categories/article-publi%C3%A9/</loc>
+    <lastmod>2021-12-08T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>/pages/</loc>
-    <lastmod>2023-01-21T00:00:00+00:00</lastmod>
+    <loc>/categories/</loc>
+    <lastmod>2021-12-08T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -60,6 +95,13 @@
   
   <url>
     <loc>/tags/</loc>
+    <lastmod>2021-12-08T00:00:00+00:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/travail-%C3%A9tudiant/</loc>
     <lastmod>2021-12-08T00:00:00+00:00</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
