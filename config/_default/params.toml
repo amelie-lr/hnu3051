@@ -1,4 +1,4 @@
-auteur = "Auteur"
+auteur = "Amélie Levasseur-Raymond"
 bloctexte = "justify"
 copyright = "CC BY-NC-SA"
 couverture = "/uploads/couverture.png"
@@ -15,4 +15,6 @@ quatrieme = "oui"
 readingtime = "oui"
 search = false
 soustitre = "Sous-titre"
-titre = "Titre"
+titre = "Mes textes"
+dateFormat = "Jan 2, 2006"
+
