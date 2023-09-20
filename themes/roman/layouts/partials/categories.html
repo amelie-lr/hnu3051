@@ -1,0 +1,4 @@
+{{ range $i, $e := .Params.categories -}}
+    {{- if $i -}} &ndash; {{ end -}}
+    <a href='{{ "/categories/" | relLangURL }}{{ . | urlize }}'>{{ $e | humanize }}</a>
+{{- end -}}

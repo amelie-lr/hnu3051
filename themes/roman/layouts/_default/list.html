@@ -2,29 +2,30 @@
 <html lang="fr">
   {{ partial "head.html" . }}
 <body>
+  {{ partial "header.html" . }}
+
   <header class="site-masthead">
     <h1 class="gothic">{{ .Site.Params.titre }}</h1>
     <h2>{{ .Site.Params.auteur }}</h2>
     <img src="{{ .Site.Params.logo }}" style="width: 350px;">
   </header>
   <main class="home" id="main" role="main" aria-label="Content">
-    <h1 class="content-title divided">Contenus</h1>
+    <h1 class="content-title divided">Articles</h1>
       <ul class="post-list">
         {{ range (.Paginate ( where .Site.RegularPages "Section" "posts" ).ByWeight).Pages }}
           {{ if ne .Kind "section" }}
           <li>
             <a href="{{ .Permalink }}" title="{{ .Params.Chapter }}" class="post-link">
               <div class="post-link__heading">
-                <h1 class="post-link__title">{{ .Params.Chapter }}</h1>
+                <h1 class="post-link__title">{{ .Title }}</h1>
               </div>
-              <span class="post-date">{{ .Title }}</span>
+              <span class="post-date">{{ .Params.Date | time.Format ":date_short" }}</span>
             </a>
           </li>
           {{ end }}
         {{ end }}
       </ul>
     </main>
-    {{ partial "header.html" . }}
     {{ partial "footer.html" . }}
 </body>
 </html>

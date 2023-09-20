@@ -2,6 +2,7 @@
 title: "La dématérialisation des archives est-elle vraiment si immatérielle et écologique qu'on le pense?"
 date: 2021-12-08
 revision: 2022-02-19
+toc: true
 categories: ["Travail étudiant", "Article publié"]
 tags: ["étiquette1", "étiquette2"]
 cours: "ARV1050 - Introduction à l'archivistique"
