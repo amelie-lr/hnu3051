@@ -1,9 +1,0 @@
-<h2 id="author">{{ .Site.Params.auteur }}</h2>
-<h1 id="titre">{{ .Site.Params.titre }}</h1>
-{{ if .Site.Params.couverture }}
-<img src="{{ .Site.Params.couverture }}">
-{{ else }}
-<div class="sans-couverture"></div>
-{{ end }}
-<h3>{{ .Site.Params.soustitre }}</h3>
-<h4 class="edition">{{ .Site.Params.edition }}</h4>
