@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>infographie on </title>
+    <link>/tags/infographie/</link>
+    <description>Recent content in infographie on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>fr-fr</language>
+    <lastBuildDate>Tue, 25 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/infographie/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Développer une écriture consciente avec le Markdown</title>
+      <link>/2023-hnu3000-markdown/</link>
+      <pubDate>Tue, 25 Apr 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/2023-hnu3000-markdown/</guid>
+      <description>Ce texte a été rédigé en Markdown avec le logiciel MacDown.
+L&amp;rsquo;arrivée relativement récente du numérique dans nos vies en bouleverse certaines habitudes. L&amp;rsquo;ordinateur, pourtant machine à calculer à l&amp;rsquo;origine, s&amp;rsquo;est depuis transformé en machine à écrire. Mais l&amp;rsquo;écriture numérique n&amp;rsquo;est pas la même que l&amp;rsquo;écriture sur papier. En appuyant sur les touches, nous ne faisons que guider la machine afin qu&amp;rsquo;elle se charge d&amp;rsquo;écrire en code binaire sur le disque.</description>
+    </item>
+    
+  </channel>
+</rss>

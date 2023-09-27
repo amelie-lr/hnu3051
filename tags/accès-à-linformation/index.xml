@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Article publié on </title>
-    <link>/categories/article-publi%C3%A9/</link>
-    <description>Recent content in Article publié on </description>
+    <title>accès à l&#39;information on </title>
+    <link>/tags/acc%C3%A8s-%C3%A0-linformation/</link>
+    <description>Recent content in accès à l&#39;information on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>fr-fr</language>
-    <lastBuildDate>Mon, 13 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="/categories/article-publi%C3%A9/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 13 Mar 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/acc%C3%A8s-%C3%A0-linformation/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Compte rendu : «Privé de sens : plaidoyer pour un meilleur accès à l&#39;information au Québec» de Marie-Ève Martel</title>
       <link>/2023-revue-archives-privedesens/</link>
@@ -14,15 +14,6 @@
       
       <guid>/2023-revue-archives-privedesens/</guid>
       <description>À l&amp;rsquo;aube des 40 ans de l’adoption de la Loi sur l&amp;rsquo;accès aux documents des organismes publics et sur la protection des renseignements personnels (RLRQ, chapitre A-2.1), la journaliste Marie-Ève Martel expose plusieurs cas de figures représentant l’état actuel de l’accès à l’information dans son essai Privé de sens : plaidoyer pour un meilleur accès à l&amp;rsquo;information au Québec, paru à l&amp;rsquo;automne 2021 aux éditions Somme toute. L’ouvrage insiste sur l’importance toujours grandissante de l’information au XXIe siècle (utilisée entre autres comme monnaie d&amp;rsquo;échange par les entreprises) et qui reste au cœur des prises de décisions.</description>
-    </item>
-    
-    <item>
-      <title>La dématérialisation des archives est-elle vraiment si immatérielle et écologique qu&#39;on le pense?</title>
-      <link>/arv1050-tp4/</link>
-      <pubDate>Wed, 08 Dec 2021 00:00:00 +0000</pubDate>
-      
-      <guid>/arv1050-tp4/</guid>
-      <description>La population augmente de façon exponentielle et donc la masse de documents que nous produisons s&amp;rsquo;accroît elle aussi pour témoigner de chacune de nos vies. La fabrication auparavant plus artisanale du papier a tranquillement évolué pour laisser place à la mécanisation des procédés que l&amp;rsquo;industrialisation a ensuite permis d&amp;rsquo;optimiser pour répondre à sa demande grandissante. Puis, nous voilà maintenant projetés à l&amp;rsquo;ère numérique, où les technologies évoluent et se multiplient à vitesse grand V et où le support papier est remplacé peu à peu par le support numérique.</description>
     </item>
     
   </channel>
