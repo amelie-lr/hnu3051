@@ -1,0 +1,298 @@
+[
+	{
+		"id": "bibliothequeetarchivesnationalesduquebecGuideConcernantFormats2020",
+		"type": "document",
+		"language": "fr",
+		"title": "Guide concernant les formats recommandés par BAnQ",
+		"URL": "https://numerique.banq.qc.ca/patrimoine/details/52327/4076856",
+		"author": [
+			{
+				"literal": "Bibliothèque et Archives nationales du Québec"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2022",
+					12,
+					4
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					3
+				]
+			]
+		}
+	},
+	{
+		"id": "perretFormatTexte2023",
+		"type": "webpage",
+		"abstract": "Cette page explique ce qu’est le format texte et donne des arguments en faveur de son utilisation. Elle ouvre vers d’autres ressources pour explorer l’écosystème du format texte.",
+		"language": "fr",
+		"title": "Format texte",
+		"URL": "https://www.arthurperret.fr/cours/format-texte.html",
+		"author": [
+			{
+				"family": "Perret",
+				"given": "Arthur"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					4,
+					20
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023"
+				]
+			]
+		}
+	},
+	{
+		"id": "CommonMark",
+		"type": "webpage",
+		"title": "CommonMark",
+		"URL": "https://commonmark.org/",
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					4,
+					21
+				]
+			]
+		}
+	},
+	{
+		"id": "soudanWordMarkdownInDesign",
+		"type": "webpage",
+		"abstract": "Based on the ideas and tools discussed in this article, we’re developing a web service for automated cross-media publishing. The idea is simple enough: with our service, you will just dump some .docx (or markdown) files into your favorite cloud storage bucket (say Dropbox) and get .indd files in return, fully compatible with your already existing InDesign templates and styles, which you can then further tweak.",
+		"language": "en",
+		"title": "From Word to Markdown to InDesign",
+		"URL": "http://rhythmus.be/md2indd",
+		"author": [
+			{
+				"family": "Soudan",
+				"given": "Dr Wouter"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					4,
+					22
+				]
+			]
+		}
+	},
+	{
+		"id": "OfficeOpenXML2023",
+		"type": "entry-encyclopedia",
+		"abstract": "Office Open XML (also informally known as OOXML) is a zipped, XML-based file format developed by Microsoft for representing spreadsheets, charts, presentations and word processing documents. Ecma International standardized the initial version as ECMA-376. ISO and IEC standardized later versions as ISO/IEC 29500.\nMicrosoft Office 2010 provides read support for ECMA-376, full support for ISO/IEC 29500 Transitional, and read support for ISO/IEC 29500 Strict.  Microsoft Office 2013 and later fully support ISO/IEC 29500 Strict, but do not use it as the default file format because of backwards compatibility concerns.",
+		"container-title": "Wikipedia",
+		"language": "en",
+		"license": "Creative Commons Attribution-ShareAlike License",
+		"note": "Page Version ID: 1150525725",
+		"source": "Wikipedia",
+		"title": "Office Open XML",
+		"URL": "https://en.wikipedia.org/w/index.php?title=Office_Open_XML&oldid=1150525725",
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					4,
+					22
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					4,
+					18
+				]
+			]
+		}
+	},
+	{
+		"id": "Markdown2023",
+		"type": "entry-encyclopedia",
+		"abstract": "Markdown is a lightweight markup language for creating formatted text using a plain-text editor. John Gruber and Aaron Swartz created Markdown in 2004 as a markup language that is appealing to human readers in its source code form. Markdown is widely used in blogging, instant messaging, online forums, collaborative software, documentation pages, and readme files.\nThe initial description of Markdown contained ambiguities and raised unanswered questions, causing implementations to both intentionally and accidentally diverge from the original version. This was addressed in 2014, when long-standing Markdown contributors released CommonMark, an unambiguous specification and test suite for Markdown.",
+		"container-title": "Wikipedia",
+		"language": "en",
+		"license": "Creative Commons Attribution-ShareAlike License",
+		"note": "Page Version ID: 1143363892",
+		"source": "Wikipedia",
+		"title": "Markdown",
+		"URL": "https://en.wikipedia.org/w/index.php?title=Markdown&oldid=1143363892",
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					4,
+					15
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2023",
+					3,
+					7
+				]
+			]
+		}
+	},
+	{
+		"id": "GettingStarted",
+		"type": "webpage",
+		"abstract": "An overview of Markdown, how it works, and what you can do with it.",
+		"container-title": "Markdown Guide",
+		"language": "en",
+		"title": "Getting Started",
+		"URL": "https://www.markdownguide.org/getting-started/",
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					4,
+					15
+				]
+			]
+		}
+	},
+	{
+		"id": "gruberMarkdown",
+		"type": "webpage",
+		"container-title": "Daring Fireball",
+		"title": "Markdown",
+		"URL": "https://daringfireball.net/projects/markdown/",
+		"author": [
+			{
+				"family": "Gruber",
+				"given": "John"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					4,
+					26
+				]
+			]
+		}
+	},
+	{
+		"id": "shieberSwitchingMarkdownScholarly2014",
+		"type": "post-weblog",
+		"abstract": "With few exceptions, scholars would be better off writing their papers in a lightweight markup format called Markdown, rather than using a word-processing program like Microsoft Word. This post exp…",
+		"container-title": "The Occasional Pamphlet",
+		"language": "en-US",
+		"title": "Switching to Markdown for scholarly article production",
+		"URL": "https://blogs.harvard.edu/pamphlet/2014/08/29/switching-to-markdown-for-scholarly-article-production/",
+		"author": [
+			{
+				"family": "Shieber",
+				"given": "Stuart"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					4,
+					23
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2014",
+					8,
+					29
+				]
+			]
+		}
+	},
+	{
+		"id": "siddiquiUltimateListMarkdown2021",
+		"type": "post-weblog",
+		"abstract": "Creating presentations in Markdown is a bit time-consuming. However, there are a couple of excellent tools out there that are explicitly used for creating presentations with Markdown.",
+		"container-title": "Tiiny Host Blog",
+		"language": "en",
+		"title": "The Ultimate List of Markdown Presentation Tools",
+		"URL": "https://tiiny.host/blog/the-ultimate-list-of-markdown-presentation-tools/",
+		"author": [
+			{
+				"family": "Siddiqui",
+				"given": "Laiba"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					4,
+					23
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					10,
+					24
+				]
+			]
+		}
+	},
+	{
+		"id": "fauchieHNU2000HumanitesNumeriques2022",
+		"type": "webpage",
+		"abstract": "Plan # Qu’est-ce que l’écriture (numérique) ? Uniformisation des outils d’écriture numérique Une courte histoire du balisage Stylo en pratique 1. Qu’est-ce que l’écriture (numérique) ? # Femme avec une tablette de cire et un stylet (dite « Sappho »), Herkulaneischer Meister 1. Qu’est-ce que l’écriture (numérique) ? # 1.1. Définition de l’écriture # L’écriture est un moyen de communication qui représente le langage à travers l’inscription de signes sur des supports variés.",
+		"language": "fr",
+		"note": "section: posts",
+		"title": "HNU2000 Humanités numériques : technologies – Séance 05 - Écrire",
+		"URL": "https://hnu2000.quaternum.net/seance-05-ecrire/",
+		"author": [
+			{
+				"family": "Fauchié",
+				"given": "Antoine"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					9,
+					27
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2022",
+					8,
+					29
+				]
+			]
+		}
+	}
+]
