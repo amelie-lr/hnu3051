@@ -168,15 +168,11 @@ select {
 }
 
 // variables
-$brand-color: #ffffff;
+$brand-color: #291f2e;
 $highlight: lighten($brand-color, 35%);
-$text-color: #0b0404;
-$muted-text-color: #64644B;
-$font-family: "EB Garamond",
-Garamond,
-"Times New Roman",
-serif;
-$font-family2: "Old London";
+$text-color: white;
+$muted-text-color: #542d33;
+$font-family: "Rokkitt", serif;
 
 
 $on-bigphone: 375px;
@@ -517,36 +513,56 @@ code.highlighter-rouge {
   // Literal.Number.Integer.Long
 }
 
+pre {
+  background: #46344e;
+  font-family: courier, monospace;
+  font-size: .75em;
+  margin: 2rem auto;
+  padding: 1em;
+  color: white;
+  white-space: normal;
+}
+
+
 // mixins
 @mixin divider {
   border: 0;
   display: block;
   width: 102px;
-  height: 112px;
+  height: 20px;
   margin: .5em auto 0;
   background: url(images/divider.svg) no-repeat top center;
 }
 
 // font
+/* Rokkitt */
+
 @font-face {
-  font-family: 'EB Garamond';
+  font-family: 'Rokkitt';
+  src: url('../fonts/Rokkitt/static/Rokkitt-Light.ttf') format('truetype');
   font-style: normal;
-  font-weight: 400;
-  font-display: auto;
-  src: url('/fonts/eb-garamond-v9-latin-regular.eot');
-  /* IE9 Compat Modes */
-  src: local('EB Garamond Regular'), local('EBGaramond-Regular'),
-    url('/fonts/eb-garamond-v9-latin-regular.eot?#iefix') format('embedded-opentype'),
-    /* IE6-IE8 */
-    url('/fonts/eb-garamond-v9-latin-regular.woff2') format('woff2'),
-    /* Super Modern Browsers */
-    url('/fonts/eb-garamond-v9-latin-regular.woff') format('woff'),
-    /* Modern Browsers */
-    url('/fonts/eb-garamond-v9-latin-regular.ttf') format('truetype'),
-    /* Safari, Android, iOS */
-    url('/fonts/eb-garamond-v9-latin-regular.svg#EBGaramond') format('svg');
-  /* Legacy iOS */
+  font-weight: normal;
 }
+@font-face {
+  font-family: 'Rokkitt';
+  src: url('../fonts/Rokkitt/static/Rokkitt-Medium.ttf') format('truetype');
+  font-style: normal;
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'Rokkitt';
+  src: url('../fonts/Rokkitt/static/Rokkitt-LightItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'Rokkitt';
+  src: url('../fonts/Rokkitt/static/Rokkitt-MediumItalic.ttf') format('truetype');
+  font-style: italic;
+  font-weight: bold;
+}
+
+
 
 
 // base
@@ -558,6 +574,17 @@ body {
   line-height: 1.5;
 }
 
+header h1, header h2 {
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+  text-align: left;
+  margin-top: 1.5em;
+  color: #FF6347;
+}
+
 h1 {
   font-size: 3em;
   margin: .5em auto;
@@ -567,40 +594,29 @@ h1 {
 h1.gothic {
   font-size: 3em;
   margin: .5em auto;
-  font-family: $font-family2;
 }
 
 h2 {
   font-size: 2em;
-  margin: 1em auto;
-  text-align: center;
 }
 
 h3 {
   font-size: 1.5em;
-  margin: 1.3333em auto;
-  text-align: center;
 }
 
 h4 {
   font-size: 1.25em;
   font-style: italic;
-  margin: 1.875em auto;
-  text-align: center;
 }
 
 h5 {
   font-size: 1em;
   font-style: italic;
-  margin: 2em auto;
-  text-align: center;
 }
 
 h6 {
   font-size: .875em;
   font-style: italic;
-  margin: 2.25em auto;
-  text-align: center;
 }
 
 em {
@@ -622,6 +638,8 @@ a:focus {
 blockquote {
   margin: 2em auto;
   opacity: .8;
+  border: white solid 1px;
+  padding-bottom: 1.5em;
 
   >* {
     padding: 0 3em;
@@ -646,7 +664,7 @@ hr {
   border: 0;
   height: 0;
   @include divider;
-  margin: 4em 0;
+  margin: 2em 0;
 }
 
 img {
@@ -676,12 +694,11 @@ figcaption {
 .home {
   max-width: 30em;
   margin: auto;
-  padding: 4em 1em;
+  padding: 2em 1em;
 }
 
 .content-title {
   font-size: 2em;
-  margin-bottom: 2em;
   text-align: center;
 }
 
@@ -851,6 +868,7 @@ figcaption {
       font-size: 1em;
       margin-bottom: 0;
       margin-top: 0;
+      color: white;
     }
   }
 
@@ -893,11 +911,11 @@ figcaption {
 
   // article
   .post {
-    background: white;
+    background: #291f2e;
     margin: 2em auto;
     max-width: 60rem;
     padding: 2em 0;
-    box-shadow: 12px 18px 24px rgba(darken($brand-color, 50%), .1);
+    box-shadow: 0px 0px 40px 20px rgba(darken($brand-color, 50%), .1);
   }
 
   .post>* {
@@ -915,14 +933,10 @@ figcaption {
   }
 
   .post p {
-    text-align: justify;
-    text-indent: 1.5em;
-    text-justify: inter-word;
-  }
-
-  .post p:first-of-type,
-  .post h2+p {
+    text-align: left;
     text-indent: 0;
+    text-justify: inter-word;
+    margin-top: 1.5em;
   }
 
   .post a:hover {
@@ -932,12 +946,12 @@ figcaption {
   .post dl,
   .post ul,
   .post ol {
-    margin: 1.5em;
+    margin: 1em 0 1em 1em;
   }
 
   .post li {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .post-content:first-child {
@@ -980,11 +994,11 @@ figcaption {
   .footnotes::before {
     content: '';
     @include divider;
-    margin: 4em auto;
+    margin: 2em auto;
   }
 
   .footnotes {
-    margin-bottom: 4em;
+    margin-bottom: 2em;
   }
 
   .footnotes li {
@@ -994,6 +1008,13 @@ figcaption {
   .reversefootnote {
     font-size: .75em;
     opacity: .75;
+  }
+
+  sup {
+    vertical-align: super;
+    font-size: 0.6em;
+    line-height: 1.5em;
+    margin-left: 0.15em;
   }
 
   // search
@@ -1066,3 +1087,13 @@ figcaption {
   .audio {
     display: none;
   }
+
+
+// customs
+
+p.credits {
+  font-size: 0.75em;
+  border-top: white solid 1px;
+  border-bottom: white solid 1px;
+  padding: 0.5em 0;
+}
