@@ -172,7 +172,7 @@ $brand-color: #291f2e;
 $highlight: lighten($brand-color, 35%);
 $text-color: white;
 $muted-text-color: #542d33;
-$font-family: "Rokkitt", serif;
+$font-family: Rokkitt, serif;
 
 
 $on-bigphone: 375px;
@@ -539,25 +539,25 @@ pre {
 
 @font-face {
   font-family: 'Rokkitt';
-  src: url('../fonts/Rokkitt/static/Rokkitt-Light.ttf') format('truetype');
+  src: url('/fonts/Rokkitt/static/Rokkitt-Light.ttf') format('truetype');
   font-style: normal;
   font-weight: normal;
 }
 @font-face {
   font-family: 'Rokkitt';
-  src: url('../fonts/Rokkitt/static/Rokkitt-Medium.ttf') format('truetype');
+  src: url('/fonts/Rokkitt/static/Rokkitt-Medium.ttf') format('truetype');
   font-style: normal;
   font-weight: bold;
 }
 @font-face {
   font-family: 'Rokkitt';
-  src: url('../fonts/Rokkitt/static/Rokkitt-LightItalic.ttf') format('truetype');
+  src: url('/fonts/Rokkitt/static/Rokkitt-LightItalic.ttf') format('truetype');
   font-style: italic;
   font-weight: normal;
 }
 @font-face {
   font-family: 'Rokkitt';
-  src: url('../fonts/Rokkitt/static/Rokkitt-MediumItalic.ttf') format('truetype');
+  src: url('/fonts/Rokkitt/static/Rokkitt-MediumItalic.ttf') format('truetype');
   font-style: italic;
   font-weight: bold;
 }
