@@ -171,7 +171,7 @@ select {
 $brand-color: #291f2e;
 $highlight: lighten($brand-color, 35%);
 $text-color: white;
-$muted-text-color: #542d33;
+$muted-text-color: #7A5C8A;
 $font-family: Rokkitt, serif;
 
 
@@ -528,8 +528,8 @@ pre {
 @mixin divider {
   border: 0;
   display: block;
-  width: 102px;
-  height: 20px;
+  width: 100px;
+  height: 50px;
   margin: .5em auto 0;
   background: url(images/divider.svg) no-repeat top center;
 }
@@ -708,6 +708,7 @@ figcaption {
   font-size: .825em;
   white-space: nowrap;
   text-transform: uppercase;
+  text-align: center;
   
     .post-link & {
       padding: .5em 0;
@@ -746,6 +747,7 @@ figcaption {
     box-sizing: border-box;
     position: relative;
     text-align: center;
+    margin-top: 8em;
   }
 
   .site-masthead h1 {
@@ -773,8 +775,16 @@ figcaption {
   }
 
   // menu
+
+  header nav {
+    background-color: #FF6347;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+  }
+
   .site-navigation {
-    margin-top: 2rem;
     padding: 0 1rem;
 
     &:hover,
@@ -794,8 +804,8 @@ figcaption {
 
   .site-navigation li {
     list-style: none;
-    font-size: .875em;
-    font-variant: small-caps;
+    font-size: .75em;
+    text-transform: uppercase;
     margin: 0;
 
     &.active a {
@@ -805,7 +815,7 @@ figcaption {
 
   .site-navigation a {
     display: block;
-    padding: .25em .5em;
+    padding: .5em 1em;
     text-decoration: none;
     transition: opacity .125s ease-in-out;
 
@@ -814,6 +824,7 @@ figcaption {
       opacity: 1;
     }
   }
+
 
   // post-list
   .post-list {
@@ -910,9 +921,10 @@ figcaption {
   }
 
   // article
+
   .post {
     background: #291f2e;
-    margin: 2em auto;
+    margin: 4em auto 2em auto;
     max-width: 60rem;
     padding: 2em 0;
     box-shadow: 0px 0px 40px 20px rgba(darken($brand-color, 50%), .1);
@@ -925,17 +937,37 @@ figcaption {
     padding: 0 1em;
   }
 
+  article .post-date {
+    margin-top: 2em;
+  }
+  
   .post>h1 {
     font-size: 2em;
     max-width: 48rem;
-    padding: 2em 1em;
+    padding: 1em 1em;
     text-align: center;
+  }
+
+  .publication {
+    text-align: center !important;
+    margin-top: 0 !important;
+  }
+  
+  .tags {
+    text-align: center;
+    padding: 1em 1em;
+    max-width: 48rem;
+  }
+  p.credits {
+    font-size: 0.75em;
+    border-top: white solid 1px;
+    border-bottom: white solid 1px;
+    padding: 0.5em 0;
   }
 
   .post p {
     text-align: left;
     text-indent: 0;
-    text-justify: inter-word;
     margin-top: 1.5em;
   }
 
@@ -1089,11 +1121,4 @@ figcaption {
   }
 
 
-// customs
 
-p.credits {
-  font-size: 0.75em;
-  border-top: white solid 1px;
-  border-bottom: white solid 1px;
-  padding: 0.5em 0;
-}

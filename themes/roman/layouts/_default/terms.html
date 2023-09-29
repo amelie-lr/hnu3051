@@ -3,8 +3,9 @@
   {{ partial "head.html" . }}
 <body>
   {{ partial "header.html" . }}
-  
-  <main id="main">
+
+  <main>
+    <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting" id="main" role="article" aria-label="Content">
     <h1>{{ .Title }}</h1>
     <p class="page-desc">
       {{ with .Description }} {{ . | markdownify }} {{ end }}
@@ -21,8 +22,10 @@
         </li>
       {{ end }}
     </ul>
+  </article>
+  {{ partial "footer.html" . }}
+
   </main>
 
-{{ partial "footer.html" . }}
 </body>
 </html>

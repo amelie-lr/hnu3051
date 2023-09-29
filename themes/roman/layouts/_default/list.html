@@ -10,7 +10,7 @@
     <img src="{{ .Site.Params.logo }}" style="width: 350px;">
   </header>
   <main class="home" id="main" role="main" aria-label="Content">
-    <h1 class="content-title divided">Articles</h1>
+    <h1 class="content-title">Articles</h1>
       <ul class="post-list">
         {{ range (.Paginate ( where .Site.RegularPages "Section" "posts" ).ByWeight).Pages }}
           {{ if ne .Kind "section" }}

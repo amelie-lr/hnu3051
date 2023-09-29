@@ -2,25 +2,38 @@
 <html lang="fr">
   {{ partial "head.html" . }}
 <body>
-<main>
-    {{ partial "header.html" . }}
+  {{ partial "header.html" . }}
+  <main>
   <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting" id="main" role="article" aria-label="Content">
 
       {{ if eq .Type "posts" }}
-      {{ partial "categories.html" . }}
-      <h1 class="post-title divided p-name" itemprop="name headline">{{ .Title }}</h1>
-      {{ partial "tags.html" . }}
+      <span class="post-date">{{ .Date | time.Format ":date_short" }}</span>
+
+        {{ if in .Params.categories "Article publié" }}
+        <p class="publication">
+          {{ if .Params.url_publication }}
+          <a href="{{ .Params.url_publication }}" target="_blank">
+          {{ end }}
+          {{ .Params.publication }}</a></p>
+        {{ end }}
+      
+      <h1 class="post-title p-name" itemprop="name headline">{{ .Title }}</h1>
+
+      <div class="tags divided">{{ partial "categories.html" . }} &nbsp;\\\&nbsp; {{ partial "tags.html" . }}</div>
 
 
       <!-- <div class="post-meta">
         <a href="impression.html">Version imprimable</a>
       </div> -->
 
-      <p class="credits">&copy;2023 par Amélie Levasseur-R. Ce travail a été réalisé à l’EBSI, Université de Montréal, dans le cadre du cours {{ .Params.cours }} donné au trimestre d’{{ .Params.session }} par {{ .Params.prof }} (remis le {{ .Date | time.Format ":date_short" }}).</p>
+        {{ if in .Params.categories "Travail étudiant" }}
+        <p class="credits">&copy;2023 par Amélie Levasseur-R. Ce travail a été réalisé à l’Université de Montréal, dans le cadre du cours {{ .Params.cours }} donné au trimestre d’{{ .Params.session }} par {{ .Params.prof }} (remis le {{ .Date | time.Format ":date_short" }}).</p>
+        {{ end }}
+
       {{ end }}
       
       {{ if eq .Type "pages" }}
-      <h1 class="post-title divided p-name" itemprop="name headline">{{ .Title }}</h1>
+      <h1 class="post-title p-name" itemprop="name headline">{{ .Title }}</h1>
       <!-- <div class="post-meta">
         <a href="impression.html">Version imprimable</a>
       </div> -->
@@ -30,9 +43,12 @@
 
       <div class="post-content e-content" itemprop="articleBody">
         {{ if .Params.toc }}
-        <h3>Table des matières de la page</h3>
-        {{ .TableOfContents }}
+        <div class="toc">
+          <h3>Table des matières de la page</h3>
+          {{ .TableOfContents }}
+        </div>
         {{ end }}
+
       {{ .Content }}
       </div>
        
