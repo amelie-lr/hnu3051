@@ -2,16 +2,21 @@
 <html lang="en">
   {{ partial "head.html" . }}
 <body>
+  {{ partial "header.html" . }}
+
   <main>
-    {{ partial "header.html" . }}
-    <section>
+    <section class="post">
 
 
-      <ul class="posts">
+      <ul class="post-list">
   {{ range .Data.Pages }}
     <li>
-      <a href="{{.RelPermalink}}">{{ .Title }} </a>
-      <time datetime="{{ dateFormat "2006-01-02" .Date }}">{{ dateFormat "2006-01-02" .Date }}</time>
+      <a href="{{.RelPermalink}}" class="post-link"> 
+      <div class="post-link__heading">
+        <h1 class="post-link__title">{{ .Title }}</h1>
+      </div>
+      <time class="post-date">{{ .Params.Date | time.Format "2006-01-02" }}</time>
+    </a>
     </li>
   {{ end }}
 </ul>

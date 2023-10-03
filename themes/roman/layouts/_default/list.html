@@ -6,7 +6,9 @@
 
   <header class="site-masthead">
     <h1 class="gothic">{{ .Site.Params.titre }}</h1>
-    <h2>{{ .Site.Params.auteur }}</h2>
+    <h2>{{ .Site.Params.soustitre }}</h2>
+    <h3>{{ .Site.Params.auteur }}</h3>
+
     <img src="{{ .Site.Params.logo }}" style="width: 350px;">
   </header>
   <main class="home" id="main" role="main" aria-label="Content">
@@ -19,7 +21,7 @@
               <div class="post-link__heading">
                 <h1 class="post-link__title">{{ .Title }}</h1>
               </div>
-              <span class="post-date">{{ .Params.Date | time.Format ":date_short" }}</span>
+              <time class="post-date">{{ .Params.Date | time.Format "2006-01-02" }}</time>
             </a>
           </li>
           {{ end }}
