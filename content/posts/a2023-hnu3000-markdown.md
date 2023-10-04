@@ -8,7 +8,7 @@ tags: ["markdown", "infographie", "archivistique", "écriture"]
 cours: "HNU3000 - Humanités numériques : Laboratoire"
 prof: "Michael E. Sinatra"
 session: "hiver 2023"
-bibfile: content/posts/2023-hnu3000-markdown.json
+bibfile: content/posts/a2023-hnu3000-markdown.json
 ---
 
 
