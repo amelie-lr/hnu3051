@@ -7,7 +7,7 @@ categories: ["Article publié"]
 tags: ["accès à l'information", "compte rendu"]
 publication: "Revue Archives"
 url_publication: ""
-bibfile: content/posts/2023-revue-archives-privedesens.json
+bibfile: content/posts/a2023-revue-archives-privedesens.json
 ---
 
 ![Livre Privé de sens](https://editionssommetoute.com/sites/default/files/styles/image_5_colonne/public/prive_de_sens_c1c4_21-07-29_v2.jpg?itok=1AcEn2Qi)
