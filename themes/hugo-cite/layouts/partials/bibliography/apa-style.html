@@ -31,6 +31,9 @@
     {{- with $author.secondInitial -}}&#32;
     <meta itemprop="additionalName" content="{{ . }}" />
     {{- substr . 0 1 -}}.{{- end -}}
+    {{- with $author.literal -}}
+    <span itemprop="literalName">{{ . }}</span>
+    {{- end -}}
   </span>
   {{- if and (gt $totalAuthors 1) (lt (add $authorIndex 2) $totalAuthors) -}},&#32;
   {{ end -}}
