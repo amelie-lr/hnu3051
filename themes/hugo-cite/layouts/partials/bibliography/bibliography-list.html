@@ -43,7 +43,8 @@
       {{- $partialPath := string (printf "bibliography/%s-style.html" $citationStyle) }}
 
       <div id="{{ $currentRef.id | urlize }}">
-        <dt>
+        <!--
+          <dt>
           {{/* 
             Author-date in-text citation
           */}}
@@ -78,6 +79,7 @@
           {{- else -}}{{/* Fallback if no date */}}
           {{- i18n "apa_no_date_abbr" | default "n.d." -}}
           {{- end -}}){{/* End Issued */}}</dt>
+          -->
 
         <dd>
           {{/*

@@ -975,7 +975,12 @@ figcaption {
     background: $highlight;
   }
 
-  .post dl,
+  .post dl div dd {
+    margin-left: 2em;
+    text-indent: -2em;
+    margin-top: 1.5em;
+  }
+
   .post ul,
   .post ol {
     margin: 1em 0 1em 1em;
