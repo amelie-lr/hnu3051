@@ -4,11 +4,11 @@
 
   Book Template : 
 
-    Author Surname, First Initial. Second Initial. (Year). <i>Book title: Subtitle</i>. Place of Publication: Publisher. [DOI]
+    Author Surname, First Initial. Second Initial. (Year). <em>Book title: Subtitle</em>. Place of Publication: Publisher. [DOI]
 
   Journal Template:
 
-    Author, I. N. (Year). Title of the article. <i>Title of the Journal or Periodical, volume number(issue number)</i>, page numbers. [DOI]
+    Author, I. N. (Year). Title of the article. <em>Title of the Journal or Periodical, volume number(issue number)</em>, page numbers. [DOI]
 
   https://apastyle.apa.org/style-grammar-guidelines/references/examples
 
@@ -147,10 +147,10 @@
   &#32;
   {{- if .title -}}
   <span itemprop="name">
-    <i>{{/* italicize title */}}
+    <em>{{/* italicize title */}}
       {{- .title | markdownify -}}
       {{- if .subtitle }}: {{ .subtitle | markdownify }}{{- end -}}
-    </i></span>{{/* close to avoid space */}}
+    </em></span>{{/* close to avoid space */}}
   {{- end -}}
   {{- if or (isset . "edition") (isset . "page") }} (
   {{- with .edition -}}
@@ -201,9 +201,9 @@
   {{- end -}}
 
   <span itemprop="about">
-    <i>{{/* italicize title */}}
+    <em>{{/* italicize title */}}
       {{- echoParam . "container-title" -}}
-    </i></span>.{{/* close to avoid space */}}
+    </em></span>.{{/* close to avoid space */}}
   {{- end -}}
   {{- if or (isset . "edition") (isset . "page") -}}&#32;(
   {{- if isset . "edition" -}}
@@ -252,7 +252,7 @@
   {{- template "editorPart" . }} (Eds.),&#32;
   {{- end -}}
 
-  <i>{{/* italicize journal title */}}
+  <em>{{/* italicize journal title */}}
     <span itemprop="about">
     {{- echoParam . "container-title" -}}</span>
     {{- if isset . "volume" -}}
@@ -260,7 +260,7 @@
     {{- end -}}
     {{- if isset . "issue" }}({{ .issue }})
     {{- end -}}
-    </i>.{{- end -}}
+    </em>.{{- end -}}
   {{- if isset . "page" -}}
   &#32;<span itemprop="pagination">{{ replace .page "-" "–" }}</span>.
   {{- end -}}
@@ -276,14 +276,14 @@
       data-type="webpage">
   {{- template "authorPart" . -}}
 
-  {{- template "issuedFullPart" . -}}.
+  {{- template "issuedPart" . -}}.
   
   &#32;
   {{- if .title -}}
   <span itemprop="name">
-    <i>{{/* italicize title */}}
+    <em>{{/* italicize title */}}
       {{- .title | markdownify -}}
-    </i></span>{{/* close to avoid space */}}
+    </em>.</span>{{/* close to avoid space */}}
   {{- end -}}
 
   {{- template "DOIPart" . -}}
@@ -339,7 +339,7 @@
   &#32;
   {{- if .title -}}
   <span itemprop="name">
-    <i>{{- .title | markdownify -}}</i>
+    <em>{{- .title | markdownify -}}</em>
   </span>
   {{- end -}}
 {{- if isset . "genre" -}}<span itemprop="inSupportOf">&nbsp;({{- echoParam . "genre" -}})</span>
@@ -371,7 +371,7 @@
   &#32;
   {{- if .title -}}
   <span itemprop="name">
-    <i>{{- .title | markdownify -}}</i>
+    <em>{{- .title | markdownify -}}</em>
   </span>
   {{- end -}}
   {{- if isset . "number" -}}<span itemprop="reportNumber">&nbsp;({{- echoParam . "number" -}})</span>
@@ -404,10 +404,10 @@
   &#32;
   {{- if .title -}}
   <span itemprop="name">
-    <i>{{/* italicize title */}}
+    <em>{{/* italicize title */}}
       {{- .title | markdownify -}}
       {{- if .subtitle }}: {{ .subtitle | markdownify }}{{- end -}}
-    </i></span>{{/* close to avoid space */}}
+    </em></span>{{/* close to avoid space */}}
   {{- end -}}
   {{- if isset . "edition" }} (
   <span span itemprop="workExample">{{ .edition }}</span>
