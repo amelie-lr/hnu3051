@@ -15,3 +15,6 @@ apa_no_date_abbr:
 
 apa_retrieved_from:
   other: "Retrieved from"
+
+apa_retrieved_date:
+  other: "Retrieved on"
