@@ -112,7 +112,20 @@
      itemprop="identifier"
      itemtype="https://schema.org/URL">https://doi.org/{{- .DOI -}}</a>
   {{- else if .URL }}&#32;
-  {{- i18n "apa_retrieved_from" | default "Retrieved from" -}}&#32;
+  {{- i18n "apa_retrieved_date" | default "Retrieved on" -}}&#32;
+{{- if and (isset . "accessed") (isset .accessed "date-parts") -}}
+    <span itemprop="dateAccessed">
+    {{- range (index .accessed "date-parts") -}}
+    {{- index . 0 -}}{{/* year */}}
+    {{- if (index . 1) -}}
+    ,&#32;{{- index . 1 -}}{{/* month */}}
+    {{- end }}
+    {{- with index . 2 -}}
+    /{{- . }}{{/* day */}}
+    {{- end -}}
+    {{- end -}}
+    </span>.
+  {{- end }}
   <a href="{{ .URL }}"
      itemprop="identifier"
      itemtype="https://schema.org/URL">{{ .URL }}</a>
