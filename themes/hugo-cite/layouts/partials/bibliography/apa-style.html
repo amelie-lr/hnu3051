@@ -277,6 +277,14 @@
   {{- template "authorPart" . -}}
 
   {{- template "issuedFullPart" . -}}.
+  
+  &#32;
+  {{- if .title -}}
+  <span itemprop="name">
+    <i>{{/* italicize title */}}
+      {{- .title | markdownify -}}
+    </i></span>{{/* close to avoid space */}}
+  {{- end -}}
 
   {{- template "DOIPart" . -}}
 </span>
