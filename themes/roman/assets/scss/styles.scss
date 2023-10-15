@@ -789,7 +789,7 @@ figcaption {
   }
 
   .site-navigation {
-    padding: 0 1rem;
+    padding: 0;
 
     &:hover,
     &:focus-within {
@@ -801,6 +801,7 @@ figcaption {
 
   .site-navigation ul {
     margin: 0;
+    padding: 0.5em 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -819,7 +820,7 @@ figcaption {
 
   .site-navigation a {
     display: block;
-    padding: .5em 1em;
+    padding: 0 1em;
     text-decoration: none;
     transition: opacity .125s ease-in-out;
 
@@ -875,8 +876,9 @@ figcaption {
     display: block;
     margin-right: 4em;
 
-    @media (min-width: $on-tablet) {
+    @media (max-width: $on-tablet) {
       padding: .25em 0;
+      margin-right: 0;
     }
 
     h1 {
@@ -963,6 +965,10 @@ figcaption {
     border-top: white solid 1px;
     border-bottom: white solid 1px;
     padding: 0.5em 0;
+
+    @media (max-width: $on-tablet) {
+      margin: 0 1em;
+    }
   }
 
   .post p {
