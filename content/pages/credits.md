@@ -10,3 +10,4 @@ Ce projet a été possible grâce aux technologies suivantes :
 - [Hugo](https://gohugo.io/), générateur de site statique
 - La Fabrique, modèle développé par [Antoine Fauchié](https://www.quaternum.net/)
 - Module [Hugo Cite](https://labs.loupbrun.ca/hugo-cite/) de [Louis-Olivier Brassard](https://labs.loupbrun.ca/)
+- [Paged.js](https://pagedjs.org/), pour la production de la version imprimée

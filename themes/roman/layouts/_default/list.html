@@ -14,7 +14,7 @@
   <main class="home" id="main" role="main" aria-label="Content">
     <h1 class="content-title">Articles</h1>
       <ul class="post-list">
-        {{ range (.Paginate ( where .Site.RegularPages "Section" "posts" ).ByWeight).Pages }}
+        {{ range (.Paginate ( where .Site.RegularPages "Section" "posts" ).ByDate.Reverse).Pages }}
           {{ if ne .Kind "section" }}
           <li>
             <a href="{{ .Permalink }}" title="{{ .Params.Chapter }}" class="post-link">
