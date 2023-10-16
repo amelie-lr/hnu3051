@@ -1,8 +1,39 @@
 [
 	{
+		"id": "associationdesarchivistesduquebecMemoireAAQRapport2017",
+		"type": "thesis",
+		"title": "Mémoire de l’AAQ sur le rapport quinquennal 2016 de la Commission d’accès à l’information, « Rétablir l’équilibre »",
+		"URL": "https://archivistes.qc.ca/wp-content/uploads/2016/09/Memoire_Rapport_quinquennal_CAI.pdf",
+		"author": [
+			{
+				"literal": "Association des archivistes du Québec"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2023",
+					9,
+					27
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2017",
+					6
+				]
+			]
+		}
+	},
+	{
 		"id": "martelPriveSensPlaidoyer2021",
 		"type": "book",
 		"edition": "Éditions Somme toute",
+		"event-place": "Montréal, Québec",
+		"number-of-pages": "183",
+		"publisher-place": "Montréal, Québec",
 		"title": "Privé de sens : plaidoyer pour un meilleur accès à l'information au Québec",
 		"author": [
 			{
@@ -14,25 +45,6 @@
 			"date-parts": [
 				[
 					"2021"
-				]
-			]
-		}
-	},
-	{
-		"id": "associationdesarchivistesduquebecMemoireAAQRapport2017",
-		"type": "thesis",
-		"title": "Mémoire de l’AAQ sur le rapport quinquennal 2016 de la Commission d’accès à l’information, « Rétablir l’équilibre »",
-		"URL": "https://archivistes.qc.ca/wp-content/uploads/2016/09/Memoire_Rapport_quinquennal_CAI.pdf",
-		"author": [
-			{
-				"literal": "Association des archivistes du Québec"
-			}
-		],
-		"issued": {
-			"date-parts": [
-				[
-					"2017",
-					6
 				]
 			]
 		}
