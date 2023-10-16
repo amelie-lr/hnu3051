@@ -1,39 +1,5 @@
 [
 	{
-		"id": "fonteneauLiseuseNumeriqueOu2021",
-		"type": "webpage",
-		"abstract": "Alors que se tient à Paris le salon VivaTech, consacré aux nouvelles technologies, la question du virage numérique se pose dans beaucoup de...\n\n2021-06-16T15:12:52+02:00",
-		"container-title": "TV5MONDE",
-		"language": "fr",
-		"title": "Liseuse numérique ou papier imprimé : comment limiter l'impact environnemental ?",
-		"title-short": "Liseuse numérique ou papier imprimé",
-		"URL": "https://information.tv5monde.com/info/liseuse-numerique-ou-papier-imprime-comment-limiter-l-impact-environnemental-413122",
-		"author": [
-			{
-				"family": "Fonteneau",
-				"given": "Antoine"
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2021",
-					10,
-					16
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"2021",
-					6,
-					16
-				]
-			]
-		}
-	},
-	{
 		"id": "DematerialisationDefinitionActualite",
 		"type": "webpage",
 		"abstract": "Tout ce qu'il faut savoir sur le sujet Dématérialisation : définition, actualités et enjeux pour les utilisateurs et les entreprises à retrouver dans la rubrique Dématérialisation des articles d'Archimag.",
@@ -41,29 +7,9 @@
 		"language": "fr",
 		"title": "Dématérialisation : définition, actualité et enjeux",
 		"URL": "https://www.archimag.com/tags/d%C3%A9mat%C3%A9rialisation",
-		"accessed": {
-			"date-parts": [
-				[
-					"2021",
-					11,
-					14
-				]
-			]
-		}
-	},
-	{
-		"id": "petitPapierVsSupport2016",
-		"type": "post-weblog",
-		"abstract": "Quels sont les avantages écologiques du papier ? Quels sont ceux du numérique ? Le combat est serré et le gagnant n'est pas forcément celui qu'on pense.",
-		"container-title": "ConsoGlobe",
-		"language": "fr",
-		"note": "section: Décorer",
-		"title": "Papier vs. support numérique : quel impact environnemental ?",
-		"URL": "https://www.consoglobe.com/duel-papier-vs-numerique-cg",
 		"author": [
 			{
-				"family": "Petit",
-				"given": "Pauline"
+				"literal": "Archimag"
 			}
 		],
 		"accessed": {
@@ -72,150 +18,6 @@
 					"2021",
 					11,
 					14
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"2016",
-					2,
-					17
-				]
-			]
-		}
-	},
-	{
-		"id": "dubourgIntroductionIndicateurSobriete2021",
-		"type": "post-weblog",
-		"abstract": "Par Christian Dubourg, Directeur Lab Innovations et conformités Spark Archives / Klee Group Après plusieurs années de normalisation et de réglementation autour de l’archivage électronique, il est t…",
-		"container-title": "Convergence AAQ",
-		"language": "fr-FR",
-		"title": "Introduction à l’Indicateur de sobriété numérique d’un SAE",
-		"URL": "https://archivistesqc.wordpress.com/2021/11/15/gestion_ecoenergetique/",
-		"author": [
-			{
-				"family": "Dubourg",
-				"given": "Christian"
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2021",
-					11,
-					15
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"2021",
-					11,
-					15
-				]
-			]
-		}
-	},
-	{
-		"id": "guerreEmpreinteCarboneSobriete2021",
-		"type": "post-weblog",
-		"abstract": "Après avoir trop longtemps cru que le remplacement du papier par le numérique était la solution à la déforestation, il est temps de changer nos croyances et de repositionner d’urgence nos projets de dématérialisation sur la base des réalités chiffrées et incontestables. À chaque organisation de remobiliser sa gouvernance et d’embarquer les acteurs. Le modèle de permaentreprise trace la voie à suivre. Voici nos méthodes et conseils pour entamer vos projets de sobriété numérique.",
-		"container-title": "Archimag",
-		"language": "fr",
-		"title": "Empreinte carbone et sobriété numérique : comment agir ?",
-		"title-short": "Empreinte carbone et sobriété numérique",
-		"URL": "https://www.archimag.com/demat-cloud/2021/10/07/empreinte-carbone-sobriete-numerique-comment-agir",
-		"author": [
-			{
-				"family": "Guerre",
-				"given": "Louise"
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2021",
-					11,
-					20
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"2021",
-					10,
-					7
-				]
-			]
-		}
-	},
-	{
-		"id": "guerreDematerialisationEcoresponsablePermaentreprise2021",
-		"type": "post-weblog",
-		"abstract": "Retour sur la journée gratuite organisée par Archimag le 19 octobre 2021 : De la dématérialisation responsable à la permaentreprise. Cet événement inédit a permis de dresser un premier état d’avancement de la dématérialisation écoresponsable grâce à des principes éthiques de sobriété numérique, de calcul de l’empreinte carbone des projets de dématérialisation avant lancement, et de la place de l’humain dans la transition digitale. Cette prise en compte est un premier pas vers un nouveau modèle de développement d’entreprise, la Permaentreprise. Accédez au replay et découvrez les 5 temps forts de cette journée, qui a été marquée par le partage des engagements et retours d'expérience d'invités exceptionnels !",
-		"container-title": "Archimag",
-		"language": "fr",
-		"title": "De la dématérialisation écoresponsable à la permaentreprise : visionnez le replay de la journée événement Archimag !",
-		"title-short": "De la dématérialisation écoresponsable à la permaentreprise",
-		"URL": "https://www.archimag.com/demat-cloud/2021/10/25/dematerialisation-ecoresponsable-permaentreprise-archimag",
-		"author": [
-			{
-				"family": "Guerre",
-				"given": "Louise"
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2021",
-					11,
-					20
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"2021",
-					10,
-					25
-				]
-			]
-		}
-	},
-	{
-		"id": "vidalencInvisiblePoidsEnvironnemental2020",
-		"type": "post-weblog",
-		"abstract": "L'invisible poids environnemental du numérique Par Eric Vidalenc Économiste, chef de projet à l'ADEME (Agence de l'environnement et de la maîtrise de l'énergie), conseiller scientifique à Futuribles. Alors que la place du numérique dans nos sociétés croît de manière exponentielle, le...",
-		"container-title": "Magazine FORMES",
-		"language": "fr",
-		"note": "original 6 mars 2020",
-		"title": "L'invisible poids environnemental du numérique",
-		"URL": "http://www.formes.ca/environnement/articles/le-poids-environnemental-du-numerique",
-		"author": [
-			{
-				"family": "Vidalenc",
-				"given": "Éric"
-			}
-		],
-		"accessed": {
-			"date-parts": [
-				[
-					"2021",
-					11,
-					20
-				]
-			]
-		},
-		"issued": {
-			"date-parts": [
-				[
-					"2020",
-					9,
-					1
 				]
 			]
 		}
@@ -290,20 +92,50 @@
 		}
 	},
 	{
-		"id": "trudelIPadAmiArbres2010",
-		"type": "article-newspaper",
-		"abstract": "L'iPad est-il une nuisance environnementale ou un ami des forêts? Les deux... avec un avantage pour les arbres. En fait, l'iPad et les autres tablettes électroniques sont plutôt une bonne nouvelle pour l'environnement, contrairement à ce que plusieurs groupes écologistes affirment.\nTrudel<br><br><i>L'auteur est un expert-conseil en développement durable chez Ellipsos et coauteur du livre La bataille de l'imprimé à l'ère du papier électronique, aux Éditions",
-		"container-title": "La Presse",
-		"language": "fr-CA",
-		"section": "Débats",
-		"source": "www.lapresse.ca",
-		"title": "L'iPad: un ami des arbres",
-		"title-short": "L'iPad",
-		"URL": "https://www.lapresse.ca/opinions/201006/03/01-4286632-lipad-un-ami-des-arbres.php",
+		"id": "dubourgIntroductionIndicateurSobriete2021",
+		"type": "post-weblog",
+		"abstract": "Par Christian Dubourg, Directeur Lab Innovations et conformités Spark Archives / Klee Group Après plusieurs années de normalisation et de réglementation autour de l’archivage électronique, il est t…",
+		"container-title": "Convergence AAQ",
+		"language": "fr-FR",
+		"title": "Introduction à l’Indicateur de sobriété numérique d’un SAE",
+		"URL": "https://archivistesqc.wordpress.com/2021/11/15/gestion_ecoenergetique/",
 		"author": [
 			{
-				"family": "Trudel",
-				"given": "Jean-Sébastien"
+				"family": "Dubourg",
+				"given": "Christian"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					11,
+					15
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					11,
+					15
+				]
+			]
+		}
+	},
+	{
+		"id": "duprat-caoureDeveloppezVotreSobriete2020",
+		"type": "post-weblog",
+		"abstract": "Avec 281 milliard d'emails envoyés chaque jour, le numérique a un véritable impact écologique. Découvrez comment développer votre sobriété numérique.",
+		"container-title": "Etourisme.info",
+		"language": "fr-FR",
+		"title": "Développez votre sobriété numérique !",
+		"URL": "https://www.etourisme.info/developpez-votre-sobriete-numerique/",
+		"author": [
+			{
+				"family": "Duprat-Caouré",
+				"given": "Sophie"
 			}
 		],
 		"accessed": {
@@ -318,9 +150,43 @@
 		"issued": {
 			"date-parts": [
 				[
-					"2010",
+					"2020",
+					11,
+					13
+				]
+			]
+		}
+	},
+	{
+		"id": "fonteneauLiseuseNumeriqueOu2021",
+		"type": "webpage",
+		"abstract": "Alors que se tient à Paris le salon VivaTech, consacré aux nouvelles technologies, la question du virage numérique se pose dans beaucoup de...\n\n2021-06-16T15:12:52+02:00",
+		"container-title": "TV5MONDE",
+		"language": "fr",
+		"title": "Liseuse numérique ou papier imprimé : comment limiter l'impact environnemental ?",
+		"title-short": "Liseuse numérique ou papier imprimé",
+		"URL": "https://information.tv5monde.com/info/liseuse-numerique-ou-papier-imprime-comment-limiter-l-impact-environnemental-413122",
+		"author": [
+			{
+				"family": "Fonteneau",
+				"given": "Antoine"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					10,
+					16
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
 					6,
-					4
+					16
 				]
 			]
 		}
@@ -370,18 +236,125 @@
 			]
 		}
 	},
+	
 	{
-		"id": "duprat-caoureDeveloppezVotreSobriete2020",
+		"id": "guerreEmpreinteCarboneSobriete2021",
 		"type": "post-weblog",
-		"abstract": "Avec 281 milliard d'emails envoyés chaque jour, le numérique a un véritable impact écologique. Découvrez comment développer votre sobriété numérique.",
-		"container-title": "Etourisme.info",
-		"language": "fr-FR",
-		"title": "Développez votre sobriété numérique !",
-		"URL": "https://www.etourisme.info/developpez-votre-sobriete-numerique/",
+		"abstract": "Après avoir trop longtemps cru que le remplacement du papier par le numérique était la solution à la déforestation, il est temps de changer nos croyances et de repositionner d’urgence nos projets de dématérialisation sur la base des réalités chiffrées et incontestables. À chaque organisation de remobiliser sa gouvernance et d’embarquer les acteurs. Le modèle de permaentreprise trace la voie à suivre. Voici nos méthodes et conseils pour entamer vos projets de sobriété numérique.",
+		"container-title": "Archimag",
+		"language": "fr",
+		"title": "Empreinte carbone et sobriété numérique : comment agir ?",
+		"title-short": "Empreinte carbone et sobriété numérique",
+		"URL": "https://www.archimag.com/demat-cloud/2021/10/07/empreinte-carbone-sobriete-numerique-comment-agir",
 		"author": [
 			{
-				"family": "Duprat-Caouré",
-				"given": "Sophie"
+				"family": "Guerre",
+				"given": "Louise"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					11,
+					20
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					10,
+					7
+				]
+			]
+		}
+	},
+	{
+		"id": "guerreDematerialisationEcoresponsablePermaentreprise2021",
+		"type": "post-weblog",
+		"abstract": "Retour sur la journée gratuite organisée par Archimag le 19 octobre 2021 : De la dématérialisation responsable à la permaentreprise. Cet événement inédit a permis de dresser un premier état d’avancement de la dématérialisation écoresponsable grâce à des principes éthiques de sobriété numérique, de calcul de l’empreinte carbone des projets de dématérialisation avant lancement, et de la place de l’humain dans la transition digitale. Cette prise en compte est un premier pas vers un nouveau modèle de développement d’entreprise, la Permaentreprise. Accédez au replay et découvrez les 5 temps forts de cette journée, qui a été marquée par le partage des engagements et retours d'expérience d'invités exceptionnels !",
+		"container-title": "Archimag",
+		"language": "fr",
+		"title": "De la dématérialisation écoresponsable à la permaentreprise : visionnez le replay de la journée événement Archimag !",
+		"title-short": "De la dématérialisation écoresponsable à la permaentreprise",
+		"URL": "https://www.archimag.com/demat-cloud/2021/10/25/dematerialisation-ecoresponsable-permaentreprise-archimag",
+		"author": [
+			{
+				"family": "Guerre",
+				"given": "Louise"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					11,
+					20
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2021",
+					10,
+					25
+				]
+			]
+		}
+	},
+	{
+		"id": "petitPapierVsSupport2016",
+		"type": "post-weblog",
+		"abstract": "Quels sont les avantages écologiques du papier ? Quels sont ceux du numérique ? Le combat est serré et le gagnant n'est pas forcément celui qu'on pense.",
+		"container-title": "ConsoGlobe",
+		"language": "fr",
+		"note": "section: Décorer",
+		"title": "Papier vs. support numérique : quel impact environnemental ?",
+		"URL": "https://www.consoglobe.com/duel-papier-vs-numerique-cg",
+		"author": [
+			{
+				"family": "Petit",
+				"given": "Pauline"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
+					11,
+					14
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2016",
+					2,
+					17
+				]
+			]
+		}
+	},
+
+	{
+		"id": "trudelIPadAmiArbres2010",
+		"type": "article-newspaper",
+		"abstract": "L'iPad est-il une nuisance environnementale ou un ami des forêts? Les deux... avec un avantage pour les arbres. En fait, l'iPad et les autres tablettes électroniques sont plutôt une bonne nouvelle pour l'environnement, contrairement à ce que plusieurs groupes écologistes affirment.\nTrudel<br><br><i>L'auteur est un expert-conseil en développement durable chez Ellipsos et coauteur du livre La bataille de l'imprimé à l'ère du papier électronique, aux Éditions",
+		"container-title": "La Presse",
+		"language": "fr-CA",
+		"section": "Débats",
+		"source": "www.lapresse.ca",
+		"title": "L'iPad: un ami des arbres",
+		"title-short": "L'iPad",
+		"URL": "https://www.lapresse.ca/opinions/201006/03/01-4286632-lipad-un-ami-des-arbres.php",
+		"author": [
+			{
+				"family": "Trudel",
+				"given": "Jean-Sébastien"
 			}
 		],
 		"accessed": {
@@ -396,9 +369,43 @@
 		"issued": {
 			"date-parts": [
 				[
-					"2020",
+					"2010",
+					6,
+					4
+				]
+			]
+		}
+	},
+	{
+		"id": "vidalencInvisiblePoidsEnvironnemental2020",
+		"type": "post-weblog",
+		"abstract": "L'invisible poids environnemental du numérique Par Eric Vidalenc Économiste, chef de projet à l'ADEME (Agence de l'environnement et de la maîtrise de l'énergie), conseiller scientifique à Futuribles. Alors que la place du numérique dans nos sociétés croît de manière exponentielle, le...",
+		"container-title": "Magazine FORMES",
+		"language": "fr",
+		"note": "original 6 mars 2020",
+		"title": "L'invisible poids environnemental du numérique",
+		"URL": "http://www.formes.ca/environnement/articles/le-poids-environnemental-du-numerique",
+		"author": [
+			{
+				"family": "Vidalenc",
+				"given": "Éric"
+			}
+		],
+		"accessed": {
+			"date-parts": [
+				[
+					"2021",
 					11,
-					13
+					20
+				]
+			]
+		},
+		"issued": {
+			"date-parts": [
+				[
+					"2020",
+					9,
+					1
 				]
 			]
 		}
