@@ -25,7 +25,7 @@ Une alternative aux interfaces graphiques est le Markdown, plutôt basé sur le 
 
 ## Qu'est-ce que le Markdown?
 
-Le Markdown est un langage de balisage léger créé par John Gruber et Aaron Swartz en 2004. Par l'ajout d'une syntaxe simple à du texte non formaté (texte brut), il permet de simplifier l'écriture numérique tout en y intégrant une sémantique. Les fichiers `.md` sont compatibles avec tout logiciel capable de lire le format texte (`.txt`), que ce soient des éditeurs de texte qui ne peuvent gérer que du texte, par exemple TextEdit et Bloc-Notes (Notepad), ou des traitements de texte plus axés sur la bureautique[^perret]{{< cite "perretFormatTexte2023" >}}, comme Word. Cet avantage fait en sorte qu'un texte structuré en Markdown est supporté par de nombreux outils. Il n'a d'ailleurs pas besoin d'être interprété par un logiciel pour être lisible (par l'humain), même si sa syntaxe est apparente, ce qui en fait un format d'écriture plus pérenne. Plusieurs outils ont tout de même été développés à partir du Markdown, dans le but d'offrir une interface de prévisualisation par exemple.
+Le Markdown est un langage de balisage léger créé par John Gruber et Aaron Swartz en 2004. Par l'ajout d'une syntaxe simple à du texte non formaté (texte brut), il permet de simplifier l'écriture numérique tout en y intégrant une sémantique. Les fichiers `.md` sont compatibles avec tout logiciel capable de lire le format texte (`.txt`), que ce soient des éditeurs de texte qui ne peuvent gérer que du texte, par exemple TextEdit et Bloc-Notes (Notepad), ou des traitements de texte plus axés sur la bureautique<!--[^perret]-->{{< cite "perretFormatTexte2023" >}}, comme Word. Cet avantage fait en sorte qu'un texte structuré en Markdown est supporté par de nombreux outils. Il n'a d'ailleurs pas besoin d'être interprété par un logiciel pour être lisible (par l'humain), même si sa syntaxe est apparente, ce qui en fait un format d'écriture plus pérenne. Plusieurs outils ont tout de même été développés à partir du Markdown, dans le but d'offrir une interface de prévisualisation par exemple.
 
 [^perret]: Perret, A. (2023). *Format texte*. Consulté le 20 avril 2023. [https://www.arthurperret.fr/cours/format-texte.html](https://www.arthurperret.fr/cours/format-texte.html)
 
@@ -41,9 +41,9 @@ Le Markdown a été originalement conçu pour le web, plus particulièrement afi
 Maintenant, ce sont auteurs, blogueurs et étudiants qui l'utilisent autant pour la rédaction d'articles ou de travaux de recherche que pour la prise de notes.
 
 
-## En pratique
+## En pratique {#En-pratique}
 
-### Comparaison avec Word
+### Comparaison avec Word {#Comparaison-avec-Word}
 
 Afin de mieux comprendre les avantages du Markdown, voyons d'abord ce qui se cache derrière une écriture faite dans Word et sauvegardée au format `.docx`. En remplaçant l'extension de fichier d'un document Word par `.zip` puis en le décompressant, cela nous permet de découvrir de quoi ce fichier est réellement constitué[^word]. Voici donc un exemple de code généré pour un article simple[^note].
 
@@ -59,7 +59,7 @@ Pour exactement le même texte avec la même structure, voici maintenant le code
 ![test Word](https://github.com/amelie-lr/hnu3000_projet/blob/main/images/test_markdown.png?raw=true)
 *Code source du fichier Markdown (`document.md` -- 8 Ko)*
 
-Pour la majorité des gens qui utilisent Word, il peut y avoir confusion entre le fond (la structure du texte) et la forme (son rendu graphique)[^fauchie]{{< cite "fauchieHNU2000HumanitesNumeriques2022" >}}. Car ce que l'on voit dans le logiciel n'est que l'interprétation faite du code écrit par la machine. À l'ère du numérique, on nous habitue aux interfaces graphiques par souci de nous rendre la tâche plus simple. Mais est-ce vraiment le cas? De nos jours, il est fort à parier que Word est le traitement de texte le plus répandu. Or, apprendre à écrire avec Word ne sert qu'à écrire avec Word malheureusement. 
+Pour la majorité des gens qui utilisent Word, il peut y avoir confusion entre le fond (la structure du texte) et la forme (son rendu graphique)<!--[^fauchie]-->{{< cite "fauchieHNU2000HumanitesNumeriques2022" >}}. Car ce que l'on voit dans le logiciel n'est que l'interprétation faite du code écrit par la machine. À l'ère du numérique, on nous habitue aux interfaces graphiques par souci de nous rendre la tâche plus simple. Mais est-ce vraiment le cas? De nos jours, il est fort à parier que Word est le traitement de texte le plus répandu. Or, apprendre à écrire avec Word ne sert qu'à écrire avec Word malheureusement. 
 
 [^fauchie]: Fauchié, A. (2022). *HNU2000 Humanités numériques : technologies -- Séance 5 -- Écrire*. [https://hnu2000.quaternum.net/seance-05-ecrire/](https://hnu2000.quaternum.net/seance-05-ecrire/)
 
@@ -83,7 +83,7 @@ Il y a neuf mois, je n'avais jamais entendu parler du Markdown et pourtant maint
 
 ### Difficultés rencontrées
 
-Bien sûr, le Markdown a ses limites. Certaines balises pourraient être ajoutées, par exemple pour l'affichage d'une légende sous les images[^legende], définir une introduction ou encore pour intégrer quelques métadonnées que l'on voudrait afficher comme le nom de l'auteur et la date. Il est important de savoir que l'interprétation des balises peut aussi différer selon l'outil utilisé. Dans le cas des liens internes, soit vers une autre partie du texte dans lequel on se trouve, la syntaxe `[En pratique](#En-pratique)` fonctionne sur HedgeDoc, mais pas dans MacDown ni Stylo.
+Bien sûr, le Markdown a ses limites. Certaines balises pourraient être ajoutées, par exemple pour l'affichage d'une légende sous les images[^legende], définir une introduction ou encore pour intégrer quelques métadonnées que l'on voudrait afficher comme le nom de l'auteur et la date. Il est important de savoir que l'interprétation des balises peut aussi différer selon l'outil utilisé. Dans le cas des liens internes, soit vers une autre partie du texte dans lequel on se trouve, la syntaxe `[En pratique](#En-pratique)` fonctionne sur HedgeDoc, mais pas dans MacDown ni Stylo. Pour que cette syntaxe fonctionne dans Hugo, il faut aussi ajouter l'ancre au niveau du titre, soit `{#En-pratique}` dans cet exemple.
 
 > [Cliquez ici pour **peut-être** être redirigé vers la section «En pratique»](#En-pratique)
 
@@ -92,7 +92,7 @@ Bien sûr, le Markdown a ses limites. Certaines balises pourraient être ajouté
 C'est le cas aussi pour les notes de bas de page. La syntaxe de base suivante semble fonctionner partout :
 
 ```
-Voici du texte avec une note de bas de page[^nom]
+Voici du texte avec une note de bas de page[^nom]  
 
 [^nom]: Ceci est une note de bas de page
 ```
@@ -109,7 +109,7 @@ Voici du texte avec une note de bas de page^[Note de bas de page inline]
 
 > Voici du texte avec une note de bas de page inline^[Note de bas de page inline]
 
-Considérant que le Markdown est tout de même assez récent et encore en développement, il est donc normal que l'implémentation dans les outils ne soit pas uniforme. Il existe d'ailleurs différentes variantes (*flavors*) du langage. Un effort de standardisation a heureusement été lancé en 2012, puis c'est en 2014 qu'est né *CommonMark*[^commonmark]{{< cite "CommonMark" >}}, une initiative indépendante rassemblant des fans/utilisateurs intensifs œuvrant dans des entreprises d'outils numériques où le Markdown est bien implémenté, qui ont élaboré un recueil de spécifications afin d'éliminer les ambiguïtés. On n'y traite pas de la syntaxe en tant que telle, mais plutôt de sa conversion vers le HTML.
+Considérant que le Markdown est tout de même assez récent et encore en développement, il est donc normal que l'implémentation dans les outils ne soit pas uniforme. Il existe d'ailleurs différentes variantes (*flavors*) du langage. Un effort de standardisation a heureusement été lancé en 2012, puis c'est en 2014 qu'est né *CommonMark*<!--[^commonmark]-->{{< cite "CommonMark" >}}, une initiative indépendante rassemblant des fans/utilisateurs intensifs œuvrant dans des entreprises d'outils numériques où le Markdown est bien implémenté, qui ont élaboré un recueil de spécifications afin d'éliminer les ambiguïtés. On n'y traite pas de la syntaxe en tant que telle, mais plutôt de sa conversion vers le HTML.
 
 [^commonmark]: CommonMark. (s. d.). Consulté le 16 avril 2023. [https://commonmark.org/](https://commonmark.org/)
 
@@ -140,7 +140,7 @@ Des fonctions d'InDesign permettent de garder le lien avec le texte original et 
 
 > InDesign’s linked file placement workflow assumes that the original document has been correctly formatted to start with. Indeed, few Word users know of its styles (header, subheading, emphasis, etc.) — let alone they apply them consistently. Instead, people are doing all sorts of weird stuff while playing around with Word’s wysiwyg click-a-button tricks.
 > 
-> *Dr Wouter Soudan*[^indd]{{< cite "soudanWordMarkdownInDesign" >}}
+> *Dr Wouter Soudan*<!--[^indd]-->{{< cite "-soudanWordMarkdownInDesign" >}}
 
 Mais si le client rédigeait son texte en Markdown déjà sémantisé, le designer pourrait alors se concentrer sur la préparation du modèle qui recevra le texte et ce dernier n'aurait ensuite qu'à y importer le texte, en conservant le lien vers le fichier placé idéalement dans un environnement partagé entre client et designer, et le logiciel se chargerait automatiquement (ou à l'aide de scripts) de convertir la sémantique en appliquant les styles correspondants. Une recherche rapide à savoir s'il existait déjà une intégration Markdown/InDesign m'a mené à [cet article du Dr Wouter Soudan](http://rhythmus.be/md2indd/), un typographe belge qui explique exactement ce que j'avais en tête. Les avantages de cette façon de faire seraient le travail en parallèle, donc l'économie de temps, la simplification du flux de travail ainsi que la possibilité d'utiliser un seul et même contenu original (entrée) pour générer plusieurs sorties, par exemple un rapport d'activités en PDF, imprimé et présenté dans un site web. On parle ici de *single source publishing*, un modèle plus efficace.
 
@@ -160,7 +160,7 @@ Le format `.docx` de Word, pourtant très répandu, demeure un format propriéta
 > - le  degré d'ouverture : un format ouvert est lisible par plusieurs logiciels; un format propriétaire est souvent lié à un seul logiciel;
 > - la reconnaissance du format : lorsqu’un format est reconnu par une norme, il est adopté plus largement et sa documentation est plus accessible.
 >
-> *Source : Bibliothèque et Archives nationales du Québec (2020)*[^banq]{{< cite "bibliothequeetarchivesnationalesduquebecGuideConcernantFormats2020" >}}
+> *Source : Bibliothèque et Archives nationales du Québec<!--[^banq]-->{{< cite "-bibliothequeetarchivesnationalesduquebecGuideConcernantFormats2020" >}}*
 
 [^banq]: Bibliothèque et Archives nationales du Québec. (2020, mars). *Guide concernant les formats recommandés par BAnQ*. Consulté le 22 avril 2023. [https://numerique.banq.qc.ca/patrimoine/details/52327/4076856](https://numerique.banq.qc.ca/patrimoine/details/52327/4076856)
 
@@ -172,7 +172,7 @@ Tel que démontré, le Markdown pourrait être une solution à mettre en place e
 
 ## Conclusion
 
-Même si le Markdown fût développé principalement pour l'écriture sur le web en alternative aux interfaces WYSIWYG (*What you see is what you get*), je crois de plus en plus qu'il pourrait s'adapter bien au-delà. L'écriture numérique n'est pas seulement en ligne après tout. Par exemple, déjà les universitaires s'approprient le langage parce qu'il facilite la rédaction de leurs travaux et de leurs notes[^scholars]{{< cite "shieberSwitchingMarkdownScholarly2014" >}}. Le Markdown ne répond probablement pas à tous les besoins particuliers pour le moment, comparativement aux traitements de texte nous offrant multiples fonctions tout-en-un, mais rien n'empêche de développer des outils autour pour y répondre. C'est le cas pour la production de présentations pour lesquelles bon nombre d'outils existent déjà[^pres]{{< cite "siddiquiUltimateListMarkdown2021" >}}. Ce modèle modulaire offre beaucoup plus de flexibilité quand on y pense.
+Même si le Markdown fût développé principalement pour l'écriture sur le web en alternative aux interfaces WYSIWYG (*What you see is what you get*), je crois de plus en plus qu'il pourrait s'adapter bien au-delà. L'écriture numérique n'est pas seulement en ligne après tout. Par exemple, déjà les universitaires s'approprient le langage parce qu'il facilite la rédaction de leurs travaux et de leurs notes<!--[^scholars]-->{{< cite "shieberSwitchingMarkdownScholarly2014" >}}. Le Markdown ne répond probablement pas à tous les besoins particuliers pour le moment, comparativement aux traitements de texte nous offrant multiples fonctions tout-en-un, mais rien n'empêche de développer des outils autour pour y répondre. C'est le cas pour la production de présentations pour lesquelles bon nombre d'outils existent déjà<!--[^pres]-->{{< cite "siddiquiUltimateListMarkdown2021" >}}. Ce modèle modulaire offre beaucoup plus de flexibilité quand on y pense.
 
 [^scholars]: Shieber, S. (2014, 29 août). Switching to Markdown for scholarly article production. *The Occasional Pamphlet*. Consulté le 23 avril 2023. [https://blogs.harvard.edu/pamphlet/2014/08/29/switching-to-markdown-for-scholarly-article-production/](https://blogs.harvard.edu/pamphlet/2014/08/29/switching-to-markdown-for-scholarly-article-production/)
 
@@ -188,10 +188,12 @@ Dans le cours FRA3825 -- Pratiques de l'édition numérique, à la séance où M
 
 {{< bibliography >}}
 
+<!--
 Getting Started. (s. d.). *Markdown Guide*. Consulté le 15 avril 2023. [https://www.markdownguide.org/getting-started/](https://www.markdownguide.org/getting-started/)
 
 Gruber, J. (s. d.). *Markdown*. Daring Fireball. Consulté le 16 avril 2023. [https://daringfireball.net/projects/markdown/](https://daringfireball.net/projects/markdown/)
 
 *Markdown*. (2023, 7 mars). Dans *Wikipedia*. Consulté le 15 avril 2023. [https://en.wikipedia.org/wiki/Markdown](https://en.wikipedia.org/w/index.php?title=Markdown&oldid=1143363892)
+-->
 
 

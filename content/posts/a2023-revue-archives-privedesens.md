@@ -39,6 +39,6 @@ Maintenant que la Loi a atteint la quarantaine, espérons que ce livre saura inc
 
 {{< bibliography >}}
 
-ASSOCIATION DES ARCHIVISTES DU QUÉBEC. (2017, juin). Mémoire de l’AAQ sur le rapport quinquennal 2016 de la Commission d’accès à l’information, « Rétablir l’équilibre ». Repéré à https://archivistes.qc.ca/wp-content/uploads/2016/09/Memoire_Rapport_quinquennal_CAI.pdf
+<!-- ASSOCIATION DES ARCHIVISTES DU QUÉBEC. (2017, juin). Mémoire de l’AAQ sur le rapport quinquennal 2016 de la Commission d’accès à l’information, « Rétablir l’équilibre ». Repéré à https://archivistes.qc.ca/wp-content/uploads/2016/09/Memoire_Rapport_quinquennal_CAI.pdf
 
-MARTEL, M.-È. (2021). Privé de sens : plaidoyer pour un meilleur accès à l'information au Québec, préface de Monique Dumont. Montréal, Québec : Éditions Somme toute, 183 pages.
+MARTEL, M.-È. (2021). Privé de sens : plaidoyer pour un meilleur accès à l'information au Québec, préface de Monique Dumont. Montréal, Québec : Éditions Somme toute, 183 pages.-->
