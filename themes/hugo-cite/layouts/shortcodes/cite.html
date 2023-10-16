@@ -160,7 +160,13 @@
                 </span>
                 {{- end -}}
               {{- end -}}
+
+            {{- else -}}
+            <span rel="nodate">
+              {{ i18n "apa_no_date_abbr" | default "n.d." }}{{/* no date */}}
+            </span>
             {{- end -}}
+
             {{- $currentPages := index $pages $keyIndex -}}
             {{- with $currentPages -}},&#32;
             {{- $formatedPages := (printf "p.&nbsp;%s" $currentPages) | safeHTML -}}
