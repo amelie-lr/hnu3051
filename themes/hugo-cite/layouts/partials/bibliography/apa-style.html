@@ -341,6 +341,33 @@
 </span>
 {{/* -------------------- END BLOGPOST TYPE -------------------- */}}
 
+{{/* -------------------- BEGIN ENCYCLOPEDIA TYPE -------------------- */}}
+{{- else if eq .type "entry-encyclopedia" -}}
+<span itemscope
+      data-type="entry-encyclopedia">
+
+  {{- if .title -}}
+  <span itemprop="name">
+      {{- .title | markdownify -}}
+    </em>.</span>{{/* close to avoid space */}}
+  {{- end -}}
+
+  {{- template "issuedPart" . -}}.
+  
+  &#32;
+
+  <span itemprop="encyclopedia">
+    {{- if .source -}}
+    {{- i18n "apa_in" | default "In" -}}&#32;
+    <em>{{/* italicize title */}}
+      {{- .source | markdownify -}}
+    </em>.</span>{{/* close to avoid space */}}
+  {{- end -}}
+
+  {{- template "DOIPart" . -}}
+</span>
+{{/* -------------------- END ENCYCLOPEDIA TYPE -------------------- */}}
+
 {{/* -------------------- BEGIN DEGREE WORK TYPE -------------------- */}}
 {{- else if eq .type "thesis" -}}
 <span itemscope
