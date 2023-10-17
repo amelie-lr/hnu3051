@@ -40,11 +40,7 @@
   {{ if eq $totalAuthors (add $authorIndex 2) -}}&#32;&amp;&#32;{{ end -}}{{/* Last name has ampersand */}}
   {{- end -}}
 
-  {{- if eq .type "webpage" -}}
-  <span itemprop="sitename">
-    {{- . "container-title" | markdownify -}}
-  </em>.</span>{{/* close to avoid space */}}
-  {{- end -}}
+
 
   {{- else -}}{{/* Fallback if no authors are specified */}}
   ({{- i18n "apa_no_author_abbr" | default "n.a." | upper -}}).
@@ -306,12 +302,7 @@
     </em>.</span>{{/* close to avoid space */}}
   {{- end -}}
 
-    &#32;
-    {{- if  (isset . "container-title") -}}
-    <span itemprop="sitename">
-      {{- . "container-title" | markdownify -}}
-    .</span>{{/* close to avoid space */}}
-    {{- end -}}
+   
 
   {{- template "DOIPart" . -}}
 </span>
